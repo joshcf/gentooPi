@@ -82,3 +82,5 @@ cp /usr/src/linux/arch/arm64/boot/Image /boot/kernel8.img
 umount /boot
 
 cd "${OLDPWD}"
+
+emerge @module-rebuild
